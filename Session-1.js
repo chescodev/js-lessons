@@ -1,3 +1,7 @@
-let number = 10;
+function print(number) {
+    console.log(number);
+}
 
-(number > 0)? console.log(`Positive ${number}`) : console.log(`Negative ${number}`)
+let variable = 100;
+
+print(variable);
